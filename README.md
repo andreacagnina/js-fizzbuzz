@@ -13,6 +13,6 @@ BONUS 1: Crea un container nel DOM , aggiungendo (attraverso la funzione append(
 
 BONUS 2: Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
 
--Avvio su js un ciclo tramite FOR in cui specificando che l'espressione 1 debba essere = 0, l'espressione 2 < 100, l'espressione 3 uguale a ++
+-Avvio su js un ciclo tramite FOR in cui specificando che l'espressione 1 debba essere = 0, l'espressione 2 <= 100, l'espressione 3 uguale a ++
 -Faccio un console del risultato
 -dichiaro che SE il resto per 3 è 0 e che SE il resto er 5 è 0 bisogna stampare in console FIZZ e BUZZ e che se il resto è divisibile sia per 3 che per 4 allo bisogna stampare in console FizzBuzz
