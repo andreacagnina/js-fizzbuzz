@@ -1,14 +1,19 @@
+let container = document.querySelector('.row')
+
 for (let i = 1; i <= 100; i++) {
+    let content = document.createElement('div');
+    content.classList.add("col-1");
+    content.innerText = i;
 
     if (i % 3 === 0 && i % 5 === 0) {
-        console.log(i + ' FizzBuzz')
+        content.innerText = 'FizzBuzz'
     }
     else if (i % 3 === 0) {
-        console.log(i + ' Buzz')
+        content.innerText = 'Buzz'
     }
     else if (i % 5 === 0) {
-        console.log(i + ' Fizz')
-
+        content.innerText = 'Fizz'
     }
 
+    container.append(content)
 }
