@@ -1,11 +1,28 @@
+.container {
+    min-width: 1100px;
+    max-width: 1100px;
+}
+
 .col-1 {
-    background-color: goldenrod;
-    box-shadow: 2px 2px 5px;
+    background-color: rgba(243, 8, 86, 0.452);
+    box-shadow: 3px 3px 10px;
     width: 100px;
     height: 100px;
-    border: 1px solid white;
-    margin: 2px;
+    margin: 3px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.border-out {
+    border: 5px outset white;
+}
+
+.col-1:hover {
+    filter: grayscale(1);
+    cursor: pointer;
 }
