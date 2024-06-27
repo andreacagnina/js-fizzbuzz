@@ -1,5 +1,6 @@
 .col-1 {
-    background-color: red;
+    background-color: goldenrod;
+    box-shadow: 2px 2px 5px;
     width: 100px;
     height: 100px;
     border: 1px solid white;
